@@ -1,2 +1,2 @@
-# 口罩地圖
-## 單純練習使用 網頁三件套 與 物件導向
+# mask-map static web-page
+## HTML CSS JavaScript
