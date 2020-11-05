@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script defer src="script.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="mask.png" alt="Logo" class="logo" />
+      <form class="form">
+        <div class="form__row">
+          <label class="form__label">口罩類型</label>
+          <select class="form__input form__input--type">
+            <option value="child">兒童</option>
+            <option value="adult">成人</option>
+          </select>
+        </div>
+        <div class="form__row">
+          <label class="form__label">轄區</label>
+          <select class="form__input form__input--county"></select>
+        </div>
+        <div class="form__row">
+          <label class="form__label">行政區</label>
+          <select class="form__input form__input--town"></select>
+        </div>
+        <div class="form__row">
+          <label class="form__label">路段</label>
+          <input
+            class="form__input form__input--road"
+            placeholder="路段"
+          />
+        </div>
+        <button class="form__btn">OK</button>
+      </form>
+      <ul class="masks">
+        
+      </ul>
+
+      <p class="copyright">
+        &copy; Powered by
+        <a
+          class="github-link"
+          target="_blank"
+          href="https://github.com/timchen10001"
+          >陳宜庭
+        </a>
+      </p>
+    </div>
+
+    <div id="map"></div>
+  </body>
+</html>
+
