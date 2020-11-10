@@ -146,6 +146,8 @@ class App {
     const selectedCounty = countyArr.filter(option => option.selected)[0].value;
     app.#selected[0] = selectedCounty;
     const HashData = app.#dataController.getTotalData();
+
+    inputTown.insertAdjacentHTML('beforeend', `<option value=''></option>`);
     for (let key of HashData[selectedCounty].entries()) {
       const html = `<option value=${key[0]}>${key[0]}</option>`;
       inputTown.insertAdjacentHTML('beforeend', html);
