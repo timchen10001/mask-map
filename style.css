@@ -85,15 +85,16 @@ a:visited {
 }
 
 .mask__title {
-  font-size: 1.7rem;
+  font-size: 3.0rem;
   font-weight: 600;
   grid-column: 1 / -1;
 }
 
 .mask__details {
   display: flex;
-  /* flex-direction: column; */
-  /* align-items: baseline; */
+}
+.mask p {
+  font-size: 1.6rem;
 }
 
 .mask__icon {
@@ -117,7 +118,7 @@ a:visited {
 .form {
   background-color: var(--color-dark--2);
   border-radius: 5px;
-  padding: 1.5rem 2.75rem;
+  padding: 1.0rem 2.75rem;
   margin-bottom: 1.75rem;
 
   display: grid;
@@ -148,20 +149,22 @@ a:visited {
 
 .form__label {
   flex: 0 0 50%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 .form__input {
-  width: 100%;
+  width: fit-content;
+  min-width: 80px;
   padding: 0.3rem 1.0rem;
   font-family: inherit;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   border: none;
   border-radius: 3px;
   background-color: var(--color-light--3);
   transition: all 0.2s;
 }
+
 
 .form__input:focus {
   outline: none;
