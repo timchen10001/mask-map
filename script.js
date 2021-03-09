@@ -155,6 +155,10 @@ class App {
   }
 
   _updateTownState() {
+    const leafletPopup = document.querySelector(".leaflet-popup");
+    if (leafletPopup) {
+      leafletPopup.parentNode.removeChild(leafletPopup);
+    }
     const townOptions = document.querySelectorAll(".form__input--town option");
     const townArr = Array.from(townOptions);
     const selectedTown = townArr.filter((option) => option.selected)[0].value;
