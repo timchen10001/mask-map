@@ -4,4 +4,6 @@
 
 - 口罩資料使用開源 API 串接，以各大藥局上傳庫存為主。
 
-- ![Image](https://upload.cc/i1/2021/02/27/I8Lu0p.png)
+- ![Image](https://media.giphy.com/media/SIKbtE3OW7Hhp3NX4U/giphy.gif)
+
+- ![Image](https://i.imgur.com/IHjX5RL.png)
