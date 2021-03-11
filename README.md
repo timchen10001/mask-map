@@ -7,9 +7,9 @@ Project Skills
 - JavaScript
 - Leaflet API
 
-- ![Image](https://media.giphy.com/media/SIKbtE3OW7Hhp3NX4U/giphy.gif)
+![Image](https://media.giphy.com/media/SIKbtE3OW7Hhp3NX4U/giphy.gif)
 
-- ![Image](https://i.imgur.com/IHjX5RL.png)
+![Image](https://i.imgur.com/IHjX5RL.png)
 
 - 使用 js Geolocation API 取得初始位置，故需從瀏覽器中 > 隱私權 > 開啟定位詢問
 
