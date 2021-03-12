@@ -9,7 +9,7 @@ Project Skills
 
 ![Image](https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472884/material/giphy-min_zxrkzp.gif)
 
-![Image](https://i.imgur.com/IHjX5RL.png)
+![Image](https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472493/material/zMQthY-min_uwdl0s.png)
 
 - 使用 js Geolocation API 取得初始位置，故需從瀏覽器中 > 隱私權 > 開啟定位詢問
 
